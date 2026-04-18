@@ -1,0 +1,18 @@
+# Pen2Sword dependencies
+# Install with: pip install -r requirements.txt
+
+# Note: Install PyTorch with CUDA separately:
+# pip install torch --index-url https://download.pytorch.org/whl/cu118
+# (or cu121 depending on your CUDA version)
+
+torch>=2.0.0
+transformers>=4.36.0
+peft>=0.7.0
+datasets>=2.14.0
+rouge-score>=0.1.2
+wandb>=0.15.0
+safetensors>=0.4.0
+accelerate>=0.20.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+numpy>=1.21.0
