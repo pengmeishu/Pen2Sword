@@ -1,12 +1,12 @@
 """
 Proxy Tuning baseline.
 
+Based on "Tuning Language Models by Proxy" (Liu et al., 2024).
+https://arxiv.org/abs/2401.08565
+
 Proxy Tuning uses predictions from a fine-tuned weak model minus
 predictions from an unfine-tuned weak model, plus predictions from
 the strong model to generate proxy labels.
-
-Reference:
-    https://arxiv.org/abs/2401.15077
 
 Note:
     This method requires pre-computed proxy labels before training.
