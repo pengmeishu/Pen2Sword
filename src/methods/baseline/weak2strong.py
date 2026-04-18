@@ -3,7 +3,7 @@ Weak-to-Strong baseline.
 
 Based on "Weak-to-Strong Generalization: Eliciting Strong Capabilities with Weak Supervision"
 (Burns et al., ICML 2024).
-https://arxiv.org/abs/2306.02707
+https://arxiv.org/abs/2312.09935
 
 Weak-to-Strong uses predictions from a weak (small) model as labels
 to fine-tune a strong (large) model.
