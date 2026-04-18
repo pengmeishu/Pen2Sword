@@ -8,7 +8,7 @@ This repository contains the implementation of Pen2Sword and baseline methods fo
 
 **Key Idea**: Transfer embedding representations from a small model to a large model, enabling faster and better fine-tuning with reduced computational cost.
 
-![Framework](framework.pdf)
+![Framework](framework.png)
 
 ## Environment Setup
 
@@ -79,7 +79,7 @@ pen2sword/
 │   ├── train_baseline.py       # Baseline training
 │   ├── dpf_evaluate.py         # DPF expert model selection
 │   └── merge_and_eval.py       # Merge LoRA weights
-├── framework.pdf                # Framework diagram
+├── framework.png                # Framework diagram
 └── README.md
 ```
 
